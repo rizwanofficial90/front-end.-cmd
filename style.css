@@ -1,0 +1,201 @@
+.nav1{
+  display: grid;
+  grid-template-rows: 100%;
+  background-color: rgb(238, 229, 207);
+}
+
+.sub-nav1{
+  display: grid;
+  grid-template-columns: 10% 72% 6% 6% 6%;
+  padding:2px;
+border: blue solid 1px;
+text-align: center;
+}
+
+body{  
+   padding-left: 2rem;
+   padding-right: 2rem;    
+}
+
+.content{
+  display: grid;
+  grid-template-columns:  5% 95%;
+  text-align:start ;
+ 
+}
+.content div{
+  background-color: rgb(250, 238, 15);
+  padding: 10px;
+  text-align: right;
+
+}
+.al {
+
+    color: rgb(10, 7, 7);  
+    padding: 10px;
+    
+  }  
+ 
+  section {
+      text-align: right;
+      margin-top: 10px; 
+      margin-right: 18px;   
+  }
+  .cen {
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+  }
+  .main-container {
+    display: grid;
+    margin-top: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns:auto auto;
+    grid-gap: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  .sub-container {
+    display: grid;
+    margin-top: 10px;
+    grid-row-gap: 10px;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+    background-color: rgb(244, 246, 248);
+    padding: 20px;
+  }
+  .sub-right-container {
+    display: grid;
+    margin-top: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: 20% 80%;
+    grid-gap: 20px;
+    background-color: rgb(238, 245, 245);
+    padding: 50px;
+  }
+  .heading-container {
+    display: grid;
+    margin-top: 20px;
+    grid-row-gap: 10px;
+    grid-template-rows: auto auto;
+    grid-gap: 30px;
+    background-color: rgb(237, 243, 235);
+    padding: 10px;
+  }
+  .last-container {
+    display: grid;
+   grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    background-color: #f4f5f1;
+    padding: 10px;
+  }
+  .last-1-container {
+    display: grid;
+   grid-row-gap: 10px;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+    background-color: #f8faf4;
+    padding: 10px;
+  }
+  .left{
+    text-align: left;
+  }
+  .mid{
+    text-align: center;
+  }
+  .right{
+    text-align: end;
+  }
+  .last {
+    display: grid;
+   grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    background-color: #b8f502;
+    padding: 10px;
+  } 
+  .lastone {
+    display: grid;
+    grid-template-rows: auto auto auto auto ;
+    background-color:#b8f502;
+    padding:5px;
+    text-align: center;
+  }
+  .lasttagrow {
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: #7da507;
+    padding:5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  @media only screen and (max-device-width: 780px) {
+    body{  
+     background-color: #a0a0a0;    
+    }
+    .nav1{
+      display: grid;
+      grid-template-rows: 100%;
+      background-color: rgb(238, 229, 207);
+    }
+    
+    .sub-nav1{
+      display: grid;
+      grid-template-columns: auto;
+      padding:2px;
+      text-align: center;
+    }
+   .main-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 20px;
+    background-color: rgb(236, 145, 145);
+    padding: 20px;
+  }
+  .sub-container {
+    display: grid;
+    margin-top: 10px;
+    grid-row-gap: 10px;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+    background-color: rgb(244, 246, 248);
+    padding: 20px;
+  }
+  .sub-right-container {
+    display: grid;
+    grid-template-columns: auto ;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    grid-gap: 10px;
+  }
+  .last-container {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #f4f5f1;
+    padding: 40px;
+  }
+  .last-1-container {
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: #f8faf4;
+    padding: 30px;
+  }  
+  .last {
+    display: grid;
+   grid-template-columns:100%;
+    grid-gap: 30px;
+    background-color: #b8f502;
+    padding: 10px;
+  } 
+  .lastone {
+    display: grid;
+    grid-template-rows: auto auto auto auto ;
+    background-color:#b8f502;
+    padding:5px;
+    text-align: center;
+  }
+  
+  }
+  
+ 
+
